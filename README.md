@@ -30,11 +30,11 @@ git clone https://github.com/galihap76/python-ddos.git
 - python3 main.py -d <ip target> -p <port target>
 
 ## Usage
-**windows**
+**Windows**
 ```
 main.py -d <ip target> -p <port target>
 ```
-**linux**
+**Linux**
 ```
 python3 main.py -d <ip target> -p <port target>
 ```
