@@ -39,5 +39,19 @@ main.py -d <ip target> -p <port target>
 python3 main.py -d <ip target> -p <port target>
 ```
 
+## Library
+- <a href="https://pypi.org/project/scapy/">Scapy</a>
+
+## Detect Vulnerability Target
+If you familiar with software NMAP you can detect on vulnerability target.
+**Command To Detect Vulnerability**
+```
+nmap --script vuln <ip target>
+```
+**Command To Detect Dos Attack**
+```
+nmap --script dos -Pn <ip target>
+```
+
 ## Note
 If you want do attack ddos on website first i recommend you to need learn networking.
