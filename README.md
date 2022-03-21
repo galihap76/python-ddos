@@ -27,7 +27,7 @@ git clone https://github.com/galihap76/python-ddos.git
 - pkg install git
 - git clone https://github.com/galihap76/python-ddos.git
 - cd python-ddos
-- python3 main.py -d <ip target> -p <port target>
+- python3 main.py -d (ip target) -p (port target)
 
 ## Usage
 **Windows**
