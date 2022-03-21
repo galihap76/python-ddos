@@ -15,5 +15,29 @@ When a client wants to establish a connection to a server via TCP protocol, the 
 
 SYN flood attack involves a malicious user that sends SYN packets repeatedly without responding with ACK, and often with different source ports, which makes the server unaware of the attack, and responds to each attempt with a SYN-ACK packet from each port (The red and green part of the above image). In this way, the server will quickly be unresponsive to legitimate clients.
 
+## Install 
+**Windows & Linux**
+```
+git clone https://github.com/galihap76/python-ddos.git
+```
+
+**Termux**
+- pkg update && pkg upgrade
+- pkg install python3 
+- pkg install git
+- git clone https://github.com/galihap76/python-ddos.git
+- cd python-ddos
+- python3 main.py -d <ip target> -p <port target>
+
+## Usage
+**windows**
+```
+main.py -d <ip target> -p <port target>
+```
+**linux**
+```
+python3 main.py -d <ip target> -p <port target>
+```
+
 ## Note
 If you want do attack ddos on website first i recommend you to need learn networking.
