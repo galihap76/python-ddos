@@ -47,12 +47,13 @@ If you familiar with software NMAP you can detect on vulnerability target.
 
 **Command To Detect Vulnerability**
 ```
-nmap --script vuln <ip target>
+nmap -Pn --script vuln <ip target>
 ```
 **Command To Detect Dos Attack**
 ```
 nmap --script dos -Pn <ip target>
 ```
+<a href="https://nmap.org/docs.html">Nmap documentation</a>
 
 ## Note
 If you want do attack ddos on website first i recommend you to need learn networking.
