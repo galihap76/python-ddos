@@ -22,6 +22,7 @@ git clone https://github.com/galihap76/python-ddos.git
 ```
 
 **Termux**
+You need a root on your termux.
 - pkg update && pkg upgrade
 - pkg install python3 
 - pkg install git
@@ -53,7 +54,7 @@ nmap -Pn --script vuln <ip target>
 ```
 nmap --script dos -Pn <ip target>
 ```
-<a href="https://nmap.org/docs.html">Nmap documentation</a>
+You can see on <a href="https://nmap.org/docs.html">nmap documentation</a>.
 
 ## Note
 If you want do attack ddos on website first i recommend you to need learn networking.
