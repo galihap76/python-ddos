@@ -22,6 +22,7 @@ git clone https://github.com/galihap76/python-ddos.git
 ```
 
 **Termux**
+
 You need a root on your termux.
 - pkg update && pkg upgrade
 - pkg install python3 
